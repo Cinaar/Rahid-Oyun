@@ -68,8 +68,8 @@ def command_start(update, context: CallbackContext):
         
         addme = InlineKeyboardButton(text="🧚 Qrupa əlavə edin!", url="https://t.me/SumqayitGameBot?startgroup=a")
         sohbet = InlineKeyboardButton(text="💬 Oyun Qrupu", url="https://t.me/sumqayitchattt")
-        oyun = InlineKeyboardButton(text="🤖 Botlar", url="https://t.me/Rahid_44")
-        admin = InlineKeyboardButton(text="👨🏻‍💻 Sahib", url="https://t.me/Rahid_2003")
+        oyun = InlineKeyboardButton(text="🤖 Botlar", url="https://t.me/sumqayitsupport")
+        admin = InlineKeyboardButton(text="👨🏻‍💻 Sahib", url="https://t.me/Rexxuxxnxx")
 
         keyboard = [[addme],[sohbet],[oyun],[admin]]
         reply_markup = InlineKeyboardMarkup(keyboard)
